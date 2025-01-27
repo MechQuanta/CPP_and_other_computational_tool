@@ -10,7 +10,7 @@ int main(int argc,char* argv[]){
   A[0][0]=0 ,A[0][1]=1;
   A[1][0]=-2,A[1][1]=-3;
   //initialize [x; v] with random number;
-  vector<double> x0 = {0,1};
+  vector<double> x0 = {2,-3};
   //my formulation will be x_k+1 = x_k + A*x_k*dt;
   //initialize time with size 1000 with 0 inside;
   vector<double> t(1001,0.0);
