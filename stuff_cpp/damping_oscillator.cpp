@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
     cout << endl;
   }
 
-  double dt = 0.01;
+  double dt = 0.0001;
   int T = 10;
 
   // Define xF as a 2D matrix with 1001 rows and 2 columns
