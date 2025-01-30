@@ -22,6 +22,7 @@ int main(int argc,char* argv[]){
     filee<<i<<"\t"<<p0<<"\t"<<abs(p0-p)<<endl;
     if (abs(p-p0)<tol){
       cout<<"This is output solution: "<<p;
+      break;
     }
     i = i + 1;
     p0 = p;
