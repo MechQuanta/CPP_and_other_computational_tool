@@ -8,7 +8,7 @@ int main(int argc,char* argv[]){
   //variable declaration;
   float p0,tol,p;
   //file instance declaration;
-  ofstream write_output("fixed_point.out");
+  ofstream write_output("fixed_point_iteration_not_very_efficient.out");
   int i,N0;
   i=0;
   cout<<"Plug the value of iteration number you want: ";
