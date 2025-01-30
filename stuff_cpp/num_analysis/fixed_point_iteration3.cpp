@@ -16,7 +16,7 @@ int main(int argc,char* argv[]){
   cout<<"Tolerance: ";
   cin>>tol;
   filee<<"i"<<"\t"<<"p"<<"\t"<<"|p-p0|"<<endl;
-  filee<<i<<"\t"<<p0<<"\t"<<abs(p0-p)<<endl;
+  //filee<<i<<"\t"<<p0<<"\t"<<abs(p0-p)<<endl;
   while(i<=N0){
     p = func(p0);
     filee<<i<<"\t"<<p0<<"\t"<<abs(p0-p)<<endl;
