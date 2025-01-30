@@ -17,6 +17,7 @@ int main(int argc,char* argv[]){
   file_writer<<i<<"\t"<<p0<<endl;
   while(i<=N0){
     p = func(p0);
+    file_writer<<i<<"\t"<<p0<<endl;
     if(abs(p-p0)<tol){
       cout<<"This is my output: "<<p;
       break;
