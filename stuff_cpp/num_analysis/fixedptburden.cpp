@@ -25,17 +25,15 @@ int main(int argc, char const *argv[]) {
   i=0;
   while(true){
     p0 = func(p);
-    if(a<=p<=b){
-      if(abs(p-p0)<tol){
-        filew<<i<<"\t"<<p0<<"\t"<<abs(p-p0)<<endl;
-        break;
-      }
+    if(abs(p-p0)<tol){
+      filew<<i<<"\t"<<p0<<"\t"<<abs(p-p0)<<endl;
+      break;
+    }
     else{
       filew<<i<<"\t"<<p0<<"\t"<<abs(p-p0)<<endl;
       p=p0;
     }
     }
     i++;
-  }
   return 0;
 }
