@@ -1,0 +1,6 @@
+sajid_Transformer_ETTh1_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.07104592025279999, mae:0.20315423607826233
+
+sajid_Transformer_ETTh1_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_1  
+mse:0.07132237404584885, mae:0.20320697128772736
+
